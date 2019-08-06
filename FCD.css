@@ -1,0 +1,40 @@
+body{
+	margin: 0;
+}
+
+#content{
+	width: 40%;
+	margin: auto;
+	border-left: solid;
+	padding-left: 3%;
+}
+
+h1{
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	background-color: #0066CC;
+	width: 100%;
+	text-align: center;
+}
+
+h2{
+	color: #6F7793;
+	font: 21px arial, verdana, sans-serif;
+}
+
+p, ul, ol{
+	color: #000000;
+	font: 14px verdana, arial, sans-serif;
+}
+
+#side{
+	margin-left: 15%;
+	margin-top: 5%;
+	float: left;
+	background-color: #ADD8E6;
+}
+
+#name{
+	color: green;
+}
