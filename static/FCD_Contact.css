@@ -93,3 +93,8 @@ h1 {
     padding-top: 20px;
     padding-bottom: 10px;
 }
+
+#rows{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+}
