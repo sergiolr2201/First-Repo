@@ -29,7 +29,24 @@ class InternshipsPage(webapp2.RequestHandler):
             'last updated': 'today',
         }
         self.response.write(welcometemplate.render(template_values))
-    
+  
+    def post(self):
+        # get input from the html form
+        new_internship_title = self.request.get('Title')
+        new_internship_link = self.request.get('Link')
+        new_internship_description = self.request.get('Description')
+        internship1 = Internships(Title = new_internship_title, Description = new_internship_description, Link = new_internship_link)
+        k = internship1.put()
+        self.response.headers['Content-Type'] = 'text/html'
+        welcometemplate = JINJA_ENVIRONMENT.get_template('Template/FCD_Internships.html')
+        ships = get_all_internships()
+        template_values = {
+            'ships': ships, 
+            'last updated': 'today',
+        }
+        self.response.write(welcometemplate.render(template_values))
+#        results_template = jinja_current_directory.get_template('Template/FCD_internships.html')
+#        self.response.write(results_template.render(internship = k.get().Title))    
 
         
 class ContactPage(webapp2.RequestHandler):
