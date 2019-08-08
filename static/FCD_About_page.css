@@ -90,7 +90,7 @@ h1 {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.about-section {
+.about-section a {
 	padding: 10%;
 	text-align: center;
   position: relative;
