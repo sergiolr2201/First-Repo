@@ -1,3 +1,6 @@
+html {
+    background-color: #f6a800;
+}
 body{
 	margin: 0;
 }
@@ -9,20 +12,15 @@ body{
 	padding-left: 3%;
 }
 
-h1{
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 25px;
-	margin-left: auto;
-	margin-right: auto;
-	color: white;
-	background-color: #004a98;
-	width: 100%;
-	text-align: center;
-}
-
 h2{
-	color: #6F7793;
-	font: 21px arial, verdana, sans-serif;
+	color: white;
+    height: auto;
+    border-top-color: #004a98;
+	font: 35px arial, verdana, sans-serif;
+    background-color: #004a98;
+    text-align: center;
+    position: relative;
+    top: -40px;
 }
 
 p, ul, ol{
@@ -39,4 +37,56 @@ p, ul, ol{
 
 #name{
 	color: green;
+}
+
+#DOCTYPE{
+    background-color: aqua;
+}
+li a{
+    display: block;
+    width: 60px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #004a98;
+    overflow: auto;
+    position: relative;
+  top: -50px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #F6A800;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #004a98;
+  color: white;
+} 
+h1 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color: #004a98;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: -30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
