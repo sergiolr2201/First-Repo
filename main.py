@@ -29,11 +29,15 @@ class InternshipsPage(webapp2.RequestHandler):
 class ContactPage(webapp2.RequestHandler):
     def get(self): #for a get request
         self.response.headers['Content-Type'] = 'text/html'
+        welcometemplate = JINJA_ENVIRONMENT.get_template('Template/FCD_Contact.html')
+        self.response.write(welcometemplate.render())
 
 
 class AboutPage(webapp2.RequestHandler):
     def get(self): #for a get request
         self.response.headers['Content-Type'] = 'text/html'
+        welcometemplate = JINJA_ENVIRONMENT.get_template('Template/FCD_About_page.html')
+        self.response.write(welcometemplate.render())
 
         
 # the app configuration section
