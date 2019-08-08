@@ -11,13 +11,19 @@
 	<body>
 		
 		<h1>Northeastern Illinois University Internships Available</h1>
-		
+        
+         {% for internship in ships %} 
+         <p><strong><a href="{{internship.Link}}" target="_blank"> {{internship.Title}} </a></strong><br />
+            {{internship.Description}}
+        </p>
+		   {% endfor %}
+        
 		<div id="top">
-			
-			<a href="internships.html">Home</a>
-			<a href="csip-announcement-page.html">STEM Internships</a>
-			
+         
+         <!-- Please add navigation bar here -->
+
 		</div>
+    
             <p><strong><a href="http://www.acs.org/content/acs/en/education/students/college/experienceopp.html" target="_blank">American Chemical Society (ACS)</a></strong><br />
             The ACS provides internship opportunities available in research universities and at companies around the United States.</p>
         
@@ -39,12 +45,12 @@
             <p><strong><a href="http://www.pathwaystoscience.org/" rel="noreferrer noopener" target="_blank">Pathways to Science</a></strong><br />
             About 900 research opportunities are available and listed on the website each year. The current opportunities are useful for all majors.</p>
         
-            <p><a href="http://www.cic.net/students" rel="noreferrer noopener" target="_blank"><strong>Summer Research Opportunities Program (SROP</strong></a><strong><a href="http://www.cic.net/students" rel="noreferrer noopener" target="_blank">)</a></strong><br />
+            <p><a href="http://www.cic.net/students" rel="noreferrer noopener" target="_blank"><strong>Summer Research Opportunities Program (SROP)</strong></a><strong><a href="http://www.cic.net/students" rel="noreferrer noopener" target="_blank">)</a></strong><br />
             The goal of the SROP program is to increase the number of underrepresented students who pursue graduate and research careers. Undergraduates from all majors are prepared for graduate schools through research opportunities available at participating universities.</p>
-            <br>
-            <h3>Graduate School Resources</h3>
+        
             <p><strong><a href="https://www.gograd.org/resources/women-in-stem/" target="_blank">Graduate Resources for Women in STEM</a></strong> is geared toward helping women access this exciting career sector. Because the gender gap is an issue that people are becoming more aware of, a guide has been created to list resources available for women who are underrepresented in this field. This guide provides numerous STEM scholarships for women going into graduate school, tips for helping applications stand out, and support resources for women in the STEM field. There is also a great expert Q&amp;A that addresses common questions for women interested in STEM. </p>
-            <p><strong><a href="https://www.discoverdatascience.org/" target="_blank">Discover Data Science</a> </strong>provides information on graduate school, and certificate and boot camp programs in the field of data science as well as descriptions of potential careers in this area. <br />
+            
+            <p><strong><a href="https://www.discoverdatascience.org/" target="_blank">Discover Data Science for Graduate Students</a> </strong>provides information on graduate school, and certificate and boot camp programs in the field of data science as well as descriptions of potential careers in this area. <br />
             </p>
         
 
