@@ -27,6 +27,7 @@ class InternshipsPage(webapp2.RequestHandler):
         template_values = {
             'ships': ships, 
             'last updated': 'today',
+            'is_input': False
         }
         self.response.write(welcometemplate.render(template_values))
   
@@ -43,6 +44,8 @@ class InternshipsPage(webapp2.RequestHandler):
         template_values = {
             'ships': ships, 
             'last updated': 'today',
+            'is_input': True,
+            'Title': new_internship_title
         }
         self.response.write(welcometemplate.render(template_values))
 #        results_template = jinja_current_directory.get_template('Template/FCD_internships.html')
