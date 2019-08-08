@@ -54,7 +54,7 @@ class Internships(ndb.Model):
     Link = ndb.StringProperty(required=True)
     
 def get_all_internships():
-    intern = Internships.query().fetch()
+    intern = Internships.query().order(Internships.Title).fetch()
     print "intern"
     return intern 
 

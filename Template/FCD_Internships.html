@@ -19,6 +19,24 @@
   <a href="/contact">Contacts</a>
 </div>
         
+        <form action="/internships" method="POST">
+  <div>
+    <label for="Title">Title:</label>
+    <input type="text" id="Title" name="Title">
+  </div>
+  <div>
+    <label for="Link">Link:</label>
+    <input type="url" id="Link" name="Link">
+  </div>
+  <div>
+    <label for="Description">Description:</label>
+    <textarea id="Description" name="Description"></textarea>
+  </div>
+            <div class="button">
+  <button type="submit">Post Internship</button>
+            </div>
+</form>
+        
          {% for internship in ships %} 
          <p><strong><a href="{{internship.Link}}" target="_blank"> {{internship.Title}} </a></strong><br />
             {{internship.Description}}
