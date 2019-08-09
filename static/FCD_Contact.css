@@ -10,11 +10,13 @@ body{
 	border-left: solid;
 	padding-left: 3%;
 }
+
 h2{
 	color: black;
+    padding: 0%;
     height: auto;
     border-top-color: #F6A800;
-	font: 35px "Source Sans Pro", sans-serif;
+	font: 40px "Source Sans Pro", sans-serif;
     background-color: #F6A800;
     text-align: center;
     position: relative;
@@ -55,7 +57,7 @@ h2{
 
 p, ul, ol{
 	color: #000000;
-	font: 14px verdana, arial, sans-serif;
+	font: 14px "Source Sans Pro", sans-serif;
 }
 
 #side{
@@ -96,9 +98,12 @@ h3{
 }
 h4{
 	color: black;
-	font-family: "Source Sans Pro", sans-serif;
+	font: 20px "Source Sans Pro", sans-serif;
 	text-align: start;
 }
 .contact-section{
-    
+    padding: -40%;
+    margin-top: 4%;
+    position: relative;
+    top: -130px
 }
