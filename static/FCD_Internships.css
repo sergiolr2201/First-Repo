@@ -54,6 +54,7 @@ li a{
     position: relative;
   top: -60px;
 	border-top: solid white;
+	font-family: "Source Sans Pro", sans-serif;
 }
 
 /* Style the links inside the navigation bar */
@@ -113,10 +114,14 @@ label {
   text-align: right;
 }
 
+label{
+	font-family: "Source Sans Pro", sans-serif;
+}
+
 input, textarea {
   /* To make sure that all text fields have the same font settings
      By default, textareas have a monospace font */
-  font: 1em sans-serif;
+  font-family: "Source Sans Pro", serif;
 
   /* To give the same size to all text fields */
   width: 300px;
@@ -153,6 +158,8 @@ button {
 h3{
 	position: relative;
 	top: -40px;
-	text-align: center
+	text-align: center;
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 40px;
 	
 }
