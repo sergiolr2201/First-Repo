@@ -97,6 +97,8 @@ form {
   width: 400px;
   /* To see the outline of the form */
   padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
 }
 
 form div + div {

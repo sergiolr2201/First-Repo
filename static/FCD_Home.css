@@ -1,105 +1,7 @@
-html {
-    background-color: #f6a800;
-    
-}
-
 body{
-	margin: 0;
+	margin: 20px;
+	background-color: #f6a800;
 }
-
-#myImg {
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-#myImg:hover {opacity: 0.7;}
-
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-}
-
-/* Modal Content (image) */
-.modal-content {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-}
-
-/* Caption of Modal Image */
-#caption {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-  text-align: center;
-  color: #ccc;
-  padding: 10px 0;
-  height: 150px;
-}
-
-/* Add Animation */
-.modal-content, #caption {  
-  -webkit-animation-name: zoom;
-  -webkit-animation-duration: 0.6s;
-  animation-name: zoom;
-  animation-duration: 0.6s;
-}
-
-@-webkit-keyframes zoom {
-  from {-webkit-transform: scale(0)} 
-  to {-webkit-transform: scale(1)}
-}
-
-@keyframes zoom {
-  from {transform: scale(0.1)} 
-  to {transform: scale(1)}
-}
-
-/* The Close Button */
-.close {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
-  font-size: 40px;
-  font-weight: bold;
-  transition: 0.3s;
-}
-
-.close:hover,
-.close:focus {
-  color: #bbb;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
-  .modal-content {
-    width: 100%;
-  }
-}
-
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-}
-
 
 #content{
 	width: 40%;
@@ -107,46 +9,20 @@ img {
 	border-left: solid;
 	padding-left: 3%;
 }
-
-h1{
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 40px;
-	margin-left: auto;
-	margin-right: auto;
-	color: white;
-	background-color: #004a98;
-	width: 100%;
-	text-align: center;
-    position: relative;
-    top: -30px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-}
-
 h2{
-	color: #6F7793;
-	font: 21px arial, verdana, sans-serif;
+	background color: #004a98;
+	text-align: center;
+	background-color: #004a98;
+	color: white;
+	position: relative;
+	top: -40px;
 }
-
-p, ul, ol{
-	color: #000000;
-	font: 14px verdana, arial, sans-serif;
-}
-
-#side{
-	margin-left: 15%;
-	margin-top: 5%;
-	float: left;
-	background-color: #ADD8E6;
-}
-
-#name{
-	color: green;
-}
-
+/* Add a black background color to the top navigation */
 .topnav {
   background-color: #004a98;
-  overflow: auto
+  overflow: auto;
+  position: relative;
+	top: 0;
 }
 
 /* Style the links inside the navigation bar */
@@ -171,7 +47,45 @@ p, ul, ol{
   color: white;
 }
 
-p{
-	font-size: 15pt;
-	
+
+
+p, ul, ol{
+	color: #000000;
+	font: 14px verdana, arial, sans-serif;
+}
+
+#side{
+	margin-left: 15%;
+	margin-top: 5%;
+	float: left;
+	background-color: #ADD8E6;
+}
+
+#name{
+	color: green;
+}
+
+h1{
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	background-color: #004a98;
+	width: 100%;
+	text-align: center;
+    top: -30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+h3{
+	color: black;
+	font: 21px, arial, verdana, sans-serif;
+	/*text-align: start;*/
+}
+
+#rows{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
 }

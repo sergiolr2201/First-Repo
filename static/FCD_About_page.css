@@ -1,8 +1,9 @@
  html {
     background-color: #f6a800;
 }
+
 body{
-	margin: 0;
+	margin: 20px;
 }
 
 #content{
@@ -16,7 +17,7 @@ h2{
 	color: white;
     height: auto;
     border-top-color: #004a98;
-	font: 35px arial, verdana, sans-serif;
+	font: 35px "Source Sans Pro", sans-serif;
     background-color: #004a98;
     text-align: center;
     position: relative;
