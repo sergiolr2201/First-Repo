@@ -52,7 +52,8 @@ li a{
     background-color: #004a98;
     overflow: auto;
     position: relative;
-  top: -50px;
+  top: -60px;
+	border-top: solid white;
 }
 
 /* Style the links inside the navigation bar */
@@ -147,4 +148,11 @@ button {
   /* This extra margin represent roughly the same space as the space
      between the labels and their text fields */
   margin-left: .5em;
+}
+
+h3{
+	position: relative;
+	top: -40px;
+	text-align: center
+	
 }
