@@ -14,14 +14,14 @@ body{
 }
 
 h2{
-	color: white;
+	color: black;
     height: auto;
-    border-top-color: #004a98;
+    border-top-color: #F6A800;
 	font: 35px "Source Sans Pro", sans-serif;
-    background-color: #004a98;
+    background-color: #F6A800;
     text-align: center;
     position: relative;
-    top: -40px;
+    top: -700px;
 }
 
 p, ul, ol{
@@ -51,9 +51,10 @@ li a{
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #004a98;
+    border-top: solid white;
     overflow: auto;
     position: relative;
-  top: -50px;
+  top: -60px;
 }
 
 /* Style the links inside the navigation bar */
@@ -92,9 +93,9 @@ h1 {
     padding-bottom: 20px;
 }
 .about-section {
-	padding: 10%;
+	padding: 0%;
 	text-align: center;
   position: relative;
-  /* top: -100px; */
+  top: 50px;
 
 }
