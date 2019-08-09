@@ -11,19 +11,22 @@ body{
 	padding-left: 3%;
 }
 h2{
-	background color: #004a98;
-	text-align: center;
-	background-color: #004a98;
-	color: white;
-	position: relative;
-	top: -40px;
+	color: black;
+    height: auto;
+    border-top-color: #F6A800;
+	font: 35px "Source Sans Pro", sans-serif;
+    background-color: #F6A800;
+    text-align: center;
+    position: relative;
+    top: 30px;
 }
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #004a98;
   overflow: auto;
+    border-top: solid white;
   position: relative;
-	top: 0;
+	top: -70px;
 }
 
 /* Style the links inside the navigation bar */
@@ -82,11 +85,20 @@ h1{
 
 h3{
 	color: black;
-	font: 21px, arial, verdana, sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
+    text-align: center;
 	/*text-align: start;*/
 }
 
 #rows{
 	display:grid;
 	grid-template-columns: 1fr 1fr;
+}
+h4{
+	color: black;
+	font-family: "Source Sans Pro", sans-serif;
+	text-align: start;
+}
+.contact-section{
+    
 }
